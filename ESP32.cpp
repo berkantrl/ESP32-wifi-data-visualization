@@ -42,8 +42,8 @@ void loop()
   Serial.print (akim);
   Serial.println(" mA");
   WiFiClient client;
-  client.connect("192.168.50.75", 1235);
-  if (client.connect("192.168.50.75", 1235)) {
+  client.connect("IP_address", 1235);
+  if (client.connect("IP_address", 1235)) {
     std::string data = std::to_string(akim) + ";" + std::to_string(deger);
     char dataCharArray[data.length() + 1];
     strcpy(dataCharArray, data.c_str());

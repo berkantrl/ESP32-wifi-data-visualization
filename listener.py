@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address = ('192.168.50.75', 1235)
+server_address = ('IP_adresses', 1235)
 sock.bind(server_address)
 
 

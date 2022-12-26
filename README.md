@@ -10,6 +10,7 @@ Clone or download this repository onto your local machine.
 Install the required libraries by running the following command:
 
 ```pip install matplotlib```
+
 Connect your device to the WiFi network that the data will be transmitted from.
 Run the listener.py script to start receiving and graphing the data.
 

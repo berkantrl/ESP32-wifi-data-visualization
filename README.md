@@ -9,11 +9,11 @@ This tool is designed to receive data over WiFi and create a real-time graph usi
 Clone or download this repository onto your local machine.
 Install the required libraries by running the following command:
 
-'''pip install matplotlib'''
+```pip install matplotlib```
 Connect your device to the WiFi network that the data will be transmitted from.
 Run the listener.py script to start receiving and graphing the data.
 
-'''python listener.py'''
+```python listener.py```
 ## Configuration
 The following configuration options are available in the listener.py script:
 

@@ -1,7 +1,7 @@
 #include <WiFi.h>
 
-const char* ssid = "Taha";
-const char* password = "taha23taha";
+const char* ssid = "Wifi_ssid";
+const char* password = "Wifi_password";
 
 float deger = 0;
 int DACDeger = 255; 
@@ -31,7 +31,7 @@ void loop()
   float voltage = adcValue * 3.3/4096;
   DACGerilim = DACDeger * 3.3/255;
  //DAC'a verilen 0-255 arası değer, 0-3.3V arası gerilime çevriliyor
-  akim = (DACGerilim - deger); //Dikkat kardeşimmmm direnç 1k için geçerli 🙂
+  akim = (DACGerilim - deger); 
   Serial.print ("vk = ");
   Serial.print (DACGerilim); 
   Serial.print("V");
